@@ -4,8 +4,10 @@ function comprar() {
 
       if (tipo.value == "pista") {
         comprarPista(qtde);
+        
     } else if (tipo.value == "superior") {
         comprarSuperior(qtde);
+        
     } else {
         comprarInferior(qtde);
     }
